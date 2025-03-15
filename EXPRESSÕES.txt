@@ -1,0 +1,61 @@
+AND - E
+             E 
+expressão1   |  expressão2     |   resultado
+   
+luz acessa   |  porta fechada  |   
+    F               V                  F
+    V               F                  F
+    V               V                  V   
+carro ligado |  Pouca Gasolina | 
+    F               V                  F
+    V               F                  F
+    V               V                  V   
+
+janela aberta|  chovendo       | 
+    F               V                  F
+    V               F                  F
+    V               V                  V  
+
+
+OR -  OU
+             OU 
+expressão1   |  expressão2     |   resultado
+   
+luz acessa   |  porta fechada  |   
+    F               V                  V
+    V               F                  V
+    V               V                  V 
+    F               F                  F  
+carro ligado |  Pouca Gasolina | 
+    F               V                  F
+    V               F                  F
+    V               V                  V   
+    F               F                  F  
+
+janela aberta|  chovendo       | 
+    F               V                  F
+    V               F                  F
+    V               V                  V 
+    F               F                  F  
+
+NOT -  NÃO
+
+NÃO            RESULTADO
+expressão1   | 
+   
+luz acesa   |    
+    F            V 
+    V            F 
+                
+carro ligado |  
+    F            V
+    V            F   
+             
+
+janela aberta|   
+    F            V  
+    V            F
+            
+  
+  
+
