@@ -1,0 +1,50 @@
+# Tipo de Dados Primitivos
+# Função Type ()
+# Fução Print () - imprimir algo no ambiente de teste (Mostrar)
+
+# Usar # para fazer comentarios
+
+print ("Olá Mundo!")
+print ("Usar # para fazer comentarios!")
+print ("Mostrar a classe do dado usado!")
+
+# type () Mostra a classe do dado
+
+#Dado do tipo Inteiros
+print (type (20))
+
+#Dado do tipo Real
+print (type (2.5))
+
+#Dado do tipo Texto
+print (type ("texto"))
+
+#Dado do tipo Bpleana
+print (type (True))
+
+# Sinais Aritiméticos ( + Soma, - Subtração, * Multiplicação, / Divisão)
+
+print (10.5+2)
+print (10-2)
+print (10*2)
+print (10.5/2)
+
+# input - gera uma entrada do usuário
+input (" Digite Algo")
+print(input ("Digite Algo"))
+
+print(float (input ("digite um numero"))) + (float (input ("digite um numero")))
+
+# criação de variáveis
+# nome do espaço é numero
+# = (atribuição)
+# 10 é o valor que esta guardado lá dentro
+# não pode -  carcateres especias, não pode números
+# elas são únicas
+
+NUMERO = 10
+print(NUMERO)
+NUMERO = 20
+print(NUMERO)
+Numero = 10
+numero = 10
